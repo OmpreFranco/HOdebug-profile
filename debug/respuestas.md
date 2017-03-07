@@ -9,5 +9,6 @@
 a podria no esatr inicializada 
 
 # Floating point exception
-1. la funcion que requiere el flag -DTRAPFPE es la set_fpe_x87_sse()
+1. la funcion que requiere el flag -DTRAPFPE es la set_fpe_x87_sse(). podriamos hacer que el programa linkee adecuadamente la square_root.c agregando el flag -lm e incluyendo la libreria math.h dentro del codigo 
+2. 
 
